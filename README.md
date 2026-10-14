@@ -15,7 +15,9 @@ The most challenging part of the vulnerability assessment process was determinin
 Increasing Layers of Security
 
 I increased security by implementing HTTPS through a self-signed certificate, creating SHA-256 checksum verification, and using OWASP Dependency-Check to identify vulnerable dependencies. In the future, I would continue using static analysis tools, dependency checking, code reviews, vulnerability databases such as the National Vulnerability Database (NVD), and secure coding standards when deciding which mitigation techniques to use.
+
 Ensuring the Application Was Functional and Secure
+
 To make sure the software remained functional and secure, I tested the application after each modification. I verified that the HTTPS endpoint functioned correctly, confirmed the checksum generation worked as expected, reviewed dependency-check reports, and evaluated security findings before making configuration changes. Running security scans after refactoring helped verify that new vulnerabilities were not introduced.
 
 Helpful Tools and Resources
